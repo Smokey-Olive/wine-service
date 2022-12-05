@@ -7,11 +7,11 @@ on:
 
 jobs:
   frontend-pr-check:
-    uses: SmokeyOlive/main-service/.github/workflows/reusable-frontend-pr-check.yml@main
+    uses: Smokey-Olive/main-service/.github/workflows/reusable-frontend-pr-check.yml@main
     with:
       service-name: "wine-service"
 
   server-pr-check:
-    uses: SmokeyOlive/main-service/.github/workflows/reusable-server-pr-check.yml@main
+    uses: Smokey-Olive/main-service/.github/workflows/reusable-server-pr-check.yml@main
     with:
       service-name: "wine-service"
